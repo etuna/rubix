@@ -1,0 +1,31 @@
+﻿  main.cpp
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\angel.h(65): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(757): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(758): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(759): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(780): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(782): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(785): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\mat.h(802): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\cube.h(24): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\cube.h(25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\cube.h(26): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\cube.h(27): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\cube.h(28): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(133): warning C4244: 'initializing': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(155): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(171): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(184): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(205): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(210): warning C4305: '*=': truncation from 'double' to 'GLfloat'
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(233): warning C4244: 'argument': conversion from 'double' to 'const GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(294): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(295): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(473): warning C4244: 'initializing': conversion from 'GLfloat' to 'int', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(477): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(498): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(499): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(504): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(507): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\etuna\source\repos\comp410_hw2\comp410_hw2\main.cpp(515): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  comp410_hw2.vcxproj -> C:\Users\etuna\source\repos\comp410_hw2\Debug\comp410_hw2.exe
