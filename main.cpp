@@ -57,6 +57,7 @@ void mouseMotion(int, int);
 void restart(cube mcube);
 void solve();
 cube GenerateCube();
+cube anotherCube;
 
 //---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -65,7 +66,11 @@ void init() {
 	
 	glClearColor(0.0, 0.0, 0.0, 1.0);
 
-	GenerateCube();
+
+	glLineWidth(10);
+	TheCube = new cube();
+	populatePointsColorsLines(*TheCube);
+
 	// Create a vertex array object
 	GLuint vao;
 	glGenVertexArrays(1, &vao);
@@ -277,9 +282,8 @@ void populatePointsColorsLines(cube mcube) {
 	for (i = 0; i < mNumLinePoints; i++) {
 		linepoints[i] = linepts[i];
 	}
-
-
-faces = mcube.mfaces;
+	
+	faces = mcube.mfaces;
 	
 	
 
@@ -534,6 +538,11 @@ void solve() {
 	
 	cube* mcubem = new cube();
 	populatePointsColorsLines(*mcubem);
+
+	faces = mcubem->mfaces;
+	for (int i = 0; i < 27; i++) {
+		ModelViews[i] = 1;
+	}
 	glutPostRedisplay();
 }
 

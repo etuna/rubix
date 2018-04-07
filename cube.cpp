@@ -25,7 +25,14 @@ mat3 _mfaces[6] = {
 	mat3(20,19,18,23,22,21,26,25,24)	
 };
 
-
+mat3 _mfaces2[6] = {
+	mat3(0,1,2,3,4,5,6,7,8),
+	mat3(18,19,20,9,10,11,0,1,2),
+	mat3(2,11,20,5,14,23,8,17,26),
+	mat3(18,9,0,21,12,3,24,15,6),
+	mat3(6,7,8,15,16,17,24,25,26),
+	mat3(20,19,18,23,22,21,26,25,24)
+};
 
 
 void cube::quad(int a, int b, int c, int d, color4 color) {
@@ -62,12 +69,13 @@ cube::mcube(int x, int y, int z)
 }
 
 cube::cube() {
+	mIndex = 0;
+	mLineIndex = 0;
 	rubix();
 	
 	mpoints = _mpoints;
 	mlinepoints = _mlinepoints;
 	mcolors = _mcolors;
-	mfaces = _mfaces;
 
 }
 
@@ -79,7 +87,7 @@ cube::rubix() {
 	_y = 4;
 	_z = 16;
 	
-	glLineWidth(10);
+	//glLineWidth(10);
 	for (int z = 0; z<3; z++) {
 		for (int y = 0; y<3; y++) {
 			for (int x = 0; x<3; x++) {

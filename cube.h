@@ -16,11 +16,23 @@ public:
 	const int NumPoints = 1300;		
 	const int NumLinePoints = 1500;				
 						
+	mat3 exact_mfaces[6] = {
+		mat3(0,1,2,3,4,5,6,7,8),
+		mat3(18,19,20,9,10,11,0,1,2),
+		mat3(2,11,20,5,14,23,8,17,26),
+		mat3(18,9,0,21,12,3,24,15,6),
+		mat3(6,7,8,15,16,17,24,25,26),
+		mat3(20,19,18,23,22,21,26,25,24)
+	};
+
+
+
 
 	point4* mpoints;
 	point4* mlinepoints;
 	color4* mcolors;
-	mat3* mfaces;
+	mat3* mfaces = exact_mfaces;
+	mat3* def_faces;
 	GLfloat msize = 0.2;
 	GLfloat a0 = -1.8 * msize;
 	GLfloat a1 = -0.6 * msize;
